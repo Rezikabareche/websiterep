@@ -15,7 +15,6 @@ public class LoginPage extends CommonAPI {
 
         PageFactory.initElements(driver, this);
     }
-
     @FindBy(css ="#input-email")
     WebElement emailField;
 
@@ -48,7 +47,6 @@ public class LoginPage extends CommonAPI {
         return invalidloginCredenErMsg.isDisplayed();
 
     }
-
     public boolean isPasswordVisibleInPageSource(String password,WebDriver driver) {
 
         setPassword(password);
