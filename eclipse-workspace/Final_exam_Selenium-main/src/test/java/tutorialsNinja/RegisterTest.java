@@ -1,9 +1,7 @@
 package tutorialsNinja;
-import org.openqa.selenium.bidi.log.Log;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import us.piit.Utility.Utility;
 import us.piit.base.CommonAPI;
@@ -13,8 +11,8 @@ import us.piit.pages.tutorialsNinja.RegisterPage;
 import java.time.Duration;
 import java.util.Properties;
 
-import static org.testng.Assert.*;
-import static org.testng.AssertJUnit.assertFalse;
+import static org.testng.Assert.assertNotEquals;
+import static org.testng.Assert.assertTrue;
 
 public class RegisterTest  extends CommonAPI {
 
